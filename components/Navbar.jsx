@@ -11,12 +11,12 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#bc4b51]">
+    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#fcaf58]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/assets/logo.png"
           alt="/"
-          width="125"
+          width="120"
           height="50"
         />
         <div>
@@ -41,7 +41,7 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden pr-4">
             <AiOutlineMenu size={25} />
           </div>
         </div>
