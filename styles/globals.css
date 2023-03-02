@@ -35,7 +35,8 @@
   }
 
   p,
-  li {
+  li,
+  h3 {
     @apply font-[Raleway];
   }
 
