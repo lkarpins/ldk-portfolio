@@ -13,7 +13,7 @@ const Main = () => {
           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
         </div>
         <div>
-          <h2 className=" tracking-widest text-gray-600">Hi! My name is</h2>
+          <h2 className=" tracking-widest text-slate-600">Hi! My name is</h2>
           <h1 className="py-4 text-black">Lidia Karpinski.</h1>
           <h2 className="py-2 text-slate-600">
             I'm a Frontend Software Engineer.
