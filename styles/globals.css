@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 @layer utilities {
   .animation-delay-2000 {
@@ -25,12 +27,18 @@
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl;
+    @apply font-[Tilt+Warp] text-4xl sm:text-5xl md:text-6xl;
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl;
+    @apply font-[Raleway] text-3xl sm:text-4xl;
   }
+
+  p,
+  li {
+    @apply font-[Raleway];
+  }
+
   ls {
     @apply cursor-pointer;
   }
