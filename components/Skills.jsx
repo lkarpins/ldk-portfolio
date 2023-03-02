@@ -12,7 +12,7 @@ import Next from "../public/assets/projects/nextjs.png";
 const Skills = () => {
   return (
     <div className="w-full lg:h-screen p-2 ">
-      <div className="[max-w-1240px] mx-auto flex flex-col justify-center h-full">
+      <div className="[max-w-1240px] mx-2 flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-purple-600">
           Skills
         </p>
@@ -74,7 +74,7 @@ const Skills = () => {
                 <Image src={Next} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Next.JS</h3>
+                <h3>Next.js</h3>
               </div>
             </div>
           </div>{" "}
