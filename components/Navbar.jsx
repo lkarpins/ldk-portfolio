@@ -68,14 +68,15 @@ const Navbar = () => {
               />
               <div
                 onClick={handleNav}
-                className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className=" rounded-full  bg-[#fcaf58]/40 shadow-lg shadow-gray-400 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-300 my-4">
+            <div className=" border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Building inclusive & accessible applications with empathy
+                Building inclusive & accessible applications with empathy and
+                creativity.
               </p>
             </div>
           </div>
@@ -83,36 +84,46 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase ">
               <Link href="/">
-                <li className="py-4 text-sm ">Home</li>
+                <li className="py-4 text-sm hover:text-black hover:scale-105 ">
+                  Home
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm ">About</li>
+                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                  About
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm ">Skills</li>
+                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                  Skills
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm ">Projects</li>
+                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                  Projects
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm ">Contact</li>
+                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                  Contact
+                </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-40 text-center">
               <p className="uppercase tracking-widest text-[#01161e]">
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className=" rounded-full  bg-[#fcaf58]/40 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full  bg-[#fcaf58]/40 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full  bg-[#fcaf58]/40 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full  bg-[#fcaf58]/40 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
               </div>
