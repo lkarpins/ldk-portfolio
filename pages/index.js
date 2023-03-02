@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />
+      <About />
     </>
   );
 }
