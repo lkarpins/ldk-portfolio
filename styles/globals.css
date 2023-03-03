@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth !important;
 }
 
+li {
+  font-family: Raleway;
+}
+
 @layer utilities {
   .animation-delay-2000 {
     animation-delay: 2s;
@@ -41,7 +45,6 @@ html {
   }
 
   p,
-  li,
   h3 {
     @apply font-[Raleway];
   }
