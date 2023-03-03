@@ -84,12 +84,14 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/logo.png"
-                width="100"
-                height="50"
-                alt="LK Logo"
-              />
+              <Link href="/">
+                <Image
+                  src="/../public/assets/logo.png"
+                  width="100"
+                  height="50"
+                  alt="LK Logo"
+                />
+              </Link>
               <div
                 onClick={handleNav}
                 className=" rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -108,27 +110,42 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase ">
               <Link href="/">
-                <li className="py-4 text-sm hover:text-black hover:scale-105 ">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm hover:text-black hover:scale-105 "
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm hover:text-black hover:scale-105"
+                >
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm hover:text-black hover:scale-105"
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm hover:text-black hover:scale-105"
+                >
                   Projects
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-sm hover:text-black hover:scale-105">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm hover:text-black hover:scale-105"
+                >
                   Contact
                 </li>
               </Link>
@@ -138,16 +155,16 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className=" rounded-full    bg-[#f9dc5c]  shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className=" rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
-                <div className="rounded-full    bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
                 </div>
-                <div className="rounded-full    bg-[#f9dc5c]  shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full   bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
               </div>
