@@ -4,6 +4,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
 @layer utilities {
   .animation-delay-2000 {
     animation-delay: 2s;
@@ -12,6 +17,7 @@
     animation-delay: 4s;
   }
 }
+
 @layer base {
   body {
     @apply text-[#293241] tracking-wide bg-purple-200;

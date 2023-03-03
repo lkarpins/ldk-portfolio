@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-purple-600">
           Contact
@@ -102,7 +102,10 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
-              <HiOutlineChevronDoubleUp />
+              <HiOutlineChevronDoubleUp
+                classname="m-auto text-black"
+                size={30}
+              />
             </div>
           </Link>
         </div>
