@@ -4,9 +4,12 @@ import Image from "next/image";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Link from "next/link";
+
 const Contact = () => {
   return (
-    <div className="w-full lg:h-screen bg-purple-200">
+    <div className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-purple-600">
           Contact
@@ -47,7 +50,7 @@ const Contact = () => {
             </div>
           </div>
           {/*right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4  bg-[#fcaf58]/40 ">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#fcaf58]/40 p-2">
             <div className="p-y">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -89,9 +92,19 @@ const Contact = () => {
                     rows="10"
                   />
                 </div>
+                <button className="w-full p-4 text-black mt-4  bg-[#f9dc5c]">
+                  Send Message
+                </button>
               </form>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center py-12">
+          <Link href="/">
+            <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+              <HiOutlineChevronDoubleUp />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
