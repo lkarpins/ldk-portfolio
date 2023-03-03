@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full h-screen text-center bg-purple-200">
       <div className=" max-w-[1240px] w-full h-full mx-auto p-2 min-h-screen flex items-center justify-center ">
         <div className="hidden md:flex relative w-full max-w-lg">
           <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>

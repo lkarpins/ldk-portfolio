@@ -4,33 +4,40 @@ import Profile from "../public/assets/projects/profile.jpg";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div className="w-full md:h-screen p-2 flex items-center py-16 bg-purple-200">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className=" uppercase text-xl tracking-widest text-purple-600">
             About
           </p>
-          <h2 className="py-4 ">Who I am</h2>
+          <h2 className="py-4 ">Who I Am</h2>
           <p className=" uppercase text-xl tracking-widest text-purple-600">
             From Speech therapist to web developer.
           </p>
           <p className="py-2 text-black">
-            Working in healthcare for the last 7 years, I've seen the countless
-            ways technology benefits the lives of young and old. From
-            augmentative and alternative communication devices to cellphones and
-            computers, our world is deeply connected by software. Despite
-            advances in technology, accesssibility and inclusivity are still
-            barriers for so many folks. Through healthcare, I found a connection
-            and passion for building applications that are responsive,
-            accessible, and engaging for all users.
+            Having worked in skilled nursing facilities for the last seven
+            years, I treated individuals with varied neurodegenerative disorders
+            and assisted them with learning how to use augmentative and
+            alternative communication (AAC) devices. Through this experience, I
+            saw the many ways in which these specialized devices can be improved
+            to create a better experience for the patients who relied on these
+            technologies to communicate their wants and needs.
           </p>
+          <p className="py-2 text-black">
+            Despite advances in technology, accesssibility and inclusivity are
+            still barriers for so many folks. Through my experience as a
+            clinician, I developed a passion for building applications that are
+            responsive, accessible, and engaging for all users regardless of age
+            group.
+          </p>
+
           <p className="py-2  text-black">
-            In March of 2022, I began my journey into tech at Turing School of
-            Software & Design. Over the course of 7 months, I learned the
-            foundations of Frontend development with React.js, JavaScript, HTML,
-            and CSS. Since that time, I've continued to challenge myself with
-            learning new frameworks and libraries such as Next.js, Tailwind CSS,
-            and Express.js.
+            In March 2022, I began my journey into software development at
+            Turing School of Software & Design. Over the course of seven months,
+            I learned the foundations of Frontend development with React.js,
+            JavaScript, HTML, and CSS. Since graduating from the program, I
+            continue to challenge myself with learning new frameworks and
+            languages such as Next.js, Tailwind CSS, and TypeScript.
           </p>
           <p className="py-2  text-black underline cursor-pointer">
             View some of my latest projects!
