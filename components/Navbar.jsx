@@ -11,7 +11,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]  bg-[#fcaf58]">
+    <div className="fixed w-full h-20 shadow-xl z-[100]  bg-[#f9dc5c]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/assets/logo.png"
@@ -22,21 +22,23 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:scale-110">Home</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:scale-110">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:scale-110">
+                Skills
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:scale-110">
                 Project
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:scale-110">
                 Contact
               </li>
             </Link>
@@ -73,7 +75,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className=" border-b border-gray-300 my-4">
+            <div className=" border-b border-gray-300 my-4 flex justify-center items-center">
               <p className="w-[85%] md:w-[90%] py-4">
                 Building inclusive & accessible applications with empathy and
                 creativity.
@@ -109,7 +111,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40 text-center">
+            <div className="pt-4 text-center">
               <p className="uppercase tracking-widest text-[#01161e]">
                 Let's Connect
               </p>
