@@ -54,9 +54,9 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
+        <a href="/" aria-label="Go to home">
           <Image src={Logo} alt="LK Logo" width="100" />
-        </Link>
+        </a>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
