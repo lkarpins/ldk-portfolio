@@ -67,15 +67,15 @@ const rancidtomatillos = () => {
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React Router
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JSX
-              </p>{" "}
+              </p>
             </div>
           </div>
         </div>

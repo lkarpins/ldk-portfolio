@@ -80,7 +80,10 @@ const Contact = () => {
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label for="fullname" className="uppercase text-sm py-2">
+                    <label
+                      htmlFor="fullname"
+                      className="uppercase text-sm py-2"
+                    >
                       Name
                     </label>
                     <input
@@ -92,7 +95,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label for="phone" className="uppercase text-sm py-2">
+                    <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
@@ -105,7 +108,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label for="email" className="uppercase text-sm py-2">
+                  <label htmlFor="email" className="uppercase text-sm py-2">
                     Email
                   </label>
                   <input
@@ -117,7 +120,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label for="subject" className="uppercase text-sm py-2">
+                  <label htmlFor="subject" className="uppercase text-sm py-2">
                     Subject
                   </label>
                   <input
@@ -129,7 +132,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label for="Message" className="uppercase text-sm py-2">
+                  <label htmlFor="Message" className="uppercase text-sm py-2">
                     Message
                   </label>
                   <textarea

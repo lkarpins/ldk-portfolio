@@ -18,18 +18,41 @@ const pickmeup = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">PickMeUp</h2>
-          <h3> TypeScript / JavaScript / React</h3>
+          <h3> React / TypeScript / Local Storage</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p className="text-xl tracking-widest uppercase text-purple-600">
-            Project
+          <p className="text-xl tracking-widest uppercase text-purple-900">
+            Group Project
           </p>
           <h2 className="py-4">Overview</h2>
-          <p>
-            Discuss why you made it, who you made it with, what you learned, and
-            obstacles along the way.
+          <p className="italic font-bold text-lg">
+            Everyone has bad days…PickMeUp is an application that provides an
+            uplifting compliment and/or a solid piece of advice to put a smile
+            on your face! Users have the opportunity to browse through a variety
+            of compliments/advice as well as favorite their most liked!
+          </p>
+          <p className="mt-3">
+            Utilizing TypeScript for the first time, my group members and I got
+            to experience the advantages of a built-in type system. There were
+            plenty of hurdles learning the syntax, however the type and error
+            checking of the compiler far exceeded the challenge of having to
+            write a few extra lines of code. It definitely showed us the value
+            of implenting TypeScript with large-scale applications; so many
+            hours saved from refactoring and debugging!
+          </p>
+          <p className="mt-3">
+            Throughout this project, my group members and I took full advantage
+            of React’s modular nature by creating dynamically rendered
+            components and views. This helped us keep the app small yet provided
+            the user with a pleasant experience. We implemented thoughtful
+            architecture through the use of shared utilities, global extendable
+            interfaces, and views as well as implemented Local Storage to store
+            our favorite compliments and pieces of advice. We styled the app
+            using shared classes that reduced the amount of repeated CSS
+            throughout the app as well as applying media queries to make
+            everything mobile responsive.
           </p>
           <div className="flex items-center justify-center pt-8">
             <a
@@ -66,20 +89,16 @@ const pickmeup = () => {
               </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                JavaScript
-              </p>{" "}
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 React
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React Router
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Local Storage
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Cypress
