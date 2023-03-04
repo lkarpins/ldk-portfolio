@@ -154,14 +154,14 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href="/">
+          <a href="/" aria-label="Go back to home">
             <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <HiOutlineChevronDoubleUp
                 className="m-auto text-black"
                 size={30}
               />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
