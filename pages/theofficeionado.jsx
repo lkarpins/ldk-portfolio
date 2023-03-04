@@ -27,9 +27,20 @@ const theofficeionado = () => {
             Project
           </p>
           <h2 className="py-4">Overview</h2>
-          <p>
-            Discuss why you made it, who you made it with, what you learned, and
-            obstacles along the way.
+          <p className="italic font-bold text-lg">
+            Arguably the best comedy series of the 2000s, The Office provided
+            millions with an artillery of excellent one-liners. The series is
+            over, but generations will continue to enjoy this classic through
+            The Office-ionado, an application designed for users to test their
+            recollection of some of the most legendary quotes. A search input
+            allows users to easily find their favorites!
+          </p>
+          <p className="mt-3">
+            With the use of React and Express.js, the Office-ionado was my first
+            "full-stack" application. I initially found a different API I wanted
+            to use for this project idea, however a CORS issue prompted me to
+            get creative and construct my own. I really enjoyed having the
+            option to modifty/update the API throughout the development process.
           </p>
           <div className="flex items-center justify-center pt-8">
             <a
@@ -67,19 +78,19 @@ const theofficeionado = () => {
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React Router
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Express
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Cypress
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Vercel
