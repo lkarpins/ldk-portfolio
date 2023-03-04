@@ -32,13 +32,25 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect with Me</p>
-                <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
-                    <FaGithub />
-                  </div>{" "}
+                <div className="flex items-center justify-between py-4 mt-6">
+                  <a
+                    href="https://www.linkedin.com/in/lidia-karpinski/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/lkarpins"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+                      <FaGithub />
+                    </div>{" "}
+                  </a>
                   <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                     <AiOutlineMail />
                   </div>{" "}
@@ -52,13 +64,18 @@ const Contact = () => {
           {/*right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#fcaf58]/40 p-2">
             <div className="p-y">
-              <form>
+              <form
+                action="https://getform.io/f/7c676a74-84ee-4d94-b58d-e0d58d0b4611"
+                method="POST"
+                encType="multi-part/form-data"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="name"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -68,6 +85,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="phone"
                     />
                   </div>
                 </div>
@@ -76,6 +94,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -83,6 +102,8 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject
+                    "
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -90,6 +111,7 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
+                    name="message"
                   />
                 </div>
                 <button className="w-full p-4 text-black mt-4  bg-[#f9dc5c]">
