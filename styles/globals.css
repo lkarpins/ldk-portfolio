@@ -24,7 +24,7 @@ li {
 
 @layer base {
   body {
-    @apply text-[#293241] tracking-wide bg-purple-200;
+    @apply text-[#293241] tracking-wide bg-[#e8d7ff];
   }
 
   h1,
