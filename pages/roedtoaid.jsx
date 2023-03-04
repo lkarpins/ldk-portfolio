@@ -24,7 +24,7 @@ const roedtoaid = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
           <p className="text-xl tracking-widest uppercase text-purple-900">
-            Project
+            Group Project - 7 members
           </p>
           <h2 className="py-4">Overview</h2>
           <p>
