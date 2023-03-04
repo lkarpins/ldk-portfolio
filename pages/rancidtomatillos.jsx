@@ -34,6 +34,7 @@ const rancidtomatillos = () => {
           <div className="flex items-center justify-center pt-8">
             <a
               href="https://rancid-tomatillos-vert.vercel.app/"
+              aria-label="Check out the deployed site for Rancid Tomatillos"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,6 +44,7 @@ const rancidtomatillos = () => {
             </a>
             <a
               href="https://github.com/lkarpins/rancid-tomatillos"
+              aria-label="Check out the code repository for Rancid Tomatillos"
               target="_blank"
               rel="noreferrer"
             >

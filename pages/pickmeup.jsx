@@ -34,6 +34,7 @@ const pickmeup = () => {
           <div className="flex items-center justify-center pt-8">
             <a
               href="https://pick-me-up-ten.vercel.app/"
+              aria-label="Check out the deployed site for PickMeUp"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,6 +44,7 @@ const pickmeup = () => {
             </a>
             <a
               href="https://github.com/lkarpins/pick-me-up"
+              aria-label="Check out the code repository for PickMeUp"
               target="_blank"
               rel="noreferrer"
             >

@@ -34,6 +34,7 @@ const roedtoaid = () => {
           <div className="flex items-center justify-center pt-8">
             <a
               href="https://roed-to-aid.herokuapp.com/"
+              aria-label="Check out the deployed site for Roe'd To Aid"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,6 +44,7 @@ const roedtoaid = () => {
             </a>
             <a
               href="https://github.com/Roe-dToAid/roed_to_aid_fe"
+              aria-label="Check out the code repository for Roe'd To Aid"
               target="_blank"
               rel="noreferrer"
             >

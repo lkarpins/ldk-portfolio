@@ -34,6 +34,7 @@ const theofficeionado = () => {
           <div className="flex items-center justify-center pt-8">
             <a
               href="https://the-office-seven.vercel.app/"
+              aria-label="Check out the deployed site for The Office-ionado"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,6 +44,7 @@ const theofficeionado = () => {
             </a>
             <a
               href="https://github.com/lkarpins/the-office"
+              aria-label="Check out the code repository for The Office-ionado"
               target="_blank"
               rel="noreferrer"
             >
