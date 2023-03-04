@@ -7,11 +7,11 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className=" uppercase text-xl tracking-widest text-purple-600">
+          <p className=" uppercase text-xl tracking-widest text-purple-900">
             About
           </p>
           <h2 className="py-4 ">Who I Am</h2>
-          <p className=" uppercase text-xl tracking-widest text-purple-600">
+          <p className=" uppercase text-xl tracking-widest text-purple-900">
             From Speech therapist to web developer.
           </p>
           <p className="py-2 text-black">
@@ -39,13 +39,10 @@ const About = () => {
             continue to challenge myself with learning new frameworks and
             languages such as Next.js, Tailwind CSS, and TypeScript.
           </p>
-          <p className="py-2  text-black underline cursor-pointer">
-            View some of my latest projects!
-          </p>
         </div>
 
         <div className="w-full h-auto m-auto  shadow-xl shadow-slate-300 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image className="rounded-xl" src={Profile} alt="Image of Lidia" />
+          <Image src={Profile} alt="Image of Lidia" />
         </div>
       </div>
     </div>
