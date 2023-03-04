@@ -37,10 +37,10 @@ const theofficeionado = () => {
           </p>
           <p className="mt-3">
             With the use of React and Express.js, the Office-ionado was my first
-            "full-stack" application. I initially found a different API I wanted
-            to use for this project idea, however a CORS issue prompted me to
-            get creative and construct my own. I really enjoyed having the
-            option to modifty/update the API throughout the development process.
+            "full-stack" application. I initially had a different API in mind
+            for this project idea, however a CORS issue prompted me to get
+            creative and construct my own. I really enjoyed having the option to
+            modifty/update the API throughout the development process.
           </p>
           <div className="flex items-center justify-center pt-8">
             <a

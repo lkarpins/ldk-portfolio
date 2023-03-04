@@ -120,46 +120,46 @@ const Navbar = () => {
 
           <div className="py-4 flex flex-col">
             <ul className="uppercase ">
-              <Link href="/">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:text-black hover:scale-105 "
-                >
-                  Home
-                </li>
-              </Link>
-              <Link href="/#about">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:text-black hover:scale-105"
-                >
+              <li
+                onClick={() => setNav(false)}
+                className="py-4 text-sm hover:text-black hover:scale-105 "
+              >
+                <a href="/" aria-label="Go to Home page"></a>
+                Home
+              </li>
+
+              <li
+                onClick={() => setNav(false)}
+                className="py-4 text-sm hover:text-black hover:scale-105"
+              >
+                <a href="/#about" aria-label="Go to About page">
                   About
-                </li>
-              </Link>
-              <Link href="/#skills">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:text-black hover:scale-105"
-                >
+                </a>
+              </li>
+              <li
+                onClick={() => setNav(false)}
+                className="py-4 text-sm hover:text-black hover:scale-105"
+              >
+                <a href="/#skills" aria-label="Go to Skills page">
                   Skills
-                </li>
-              </Link>
-              <Link href="/#projects">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:text-black hover:scale-105"
-                >
+                </a>
+              </li>
+              <li
+                onClick={() => setNav(false)}
+                className="py-4 text-sm hover:text-black hover:scale-105"
+              >
+                <a href="/#projects" aria-label="Go to Projects page">
                   Projects
-                </li>
-              </Link>
-              <Link href="/#contact">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:text-black hover:scale-105"
-                >
+                </a>
+              </li>
+              <li
+                onClick={() => setNav(false)}
+                className="py-4 text-sm hover:text-black hover:scale-105"
+              >
+                <a href="/#contact" aria-label="Go to Contact page">
                   Contact
-                </li>
-              </Link>
+                </a>
+              </li>
             </ul>
             <div className="pt-4 text-center">
               <p className="uppercase tracking-widest text-[#01161e]">
