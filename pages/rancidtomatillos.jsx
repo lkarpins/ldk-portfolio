@@ -37,7 +37,7 @@ const rancidtomatillos = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8">
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
                 Demo
               </button>
             </a>
@@ -46,7 +46,9 @@ const rancidtomatillos = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4">Code</button>
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 hover:scale-105 ease-in duration-300">
+                Code
+              </button>
             </a>
           </div>
         </div>
