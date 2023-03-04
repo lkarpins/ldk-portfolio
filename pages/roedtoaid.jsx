@@ -69,15 +69,15 @@ const roedtoaid = () => {
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Apollo GraphQL
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 CircleCI
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Cypress
