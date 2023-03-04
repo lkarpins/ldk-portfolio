@@ -32,10 +32,22 @@ const pickmeup = () => {
             obstacles along the way.
           </p>
           <div className="flex items-center justify-center pt-8">
-            <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8">
-              Demo
-            </button>
-            <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4">Code</button>
+            <a
+              href="https://pick-me-up-ten.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8">
+                Demo
+              </button>
+            </a>
+            <a
+              href="https://github.com/lkarpins/pick-me-up"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4">Code</button>
+            </a>
           </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#fcaf58]/40 mx-6">
