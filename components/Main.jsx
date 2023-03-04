@@ -30,10 +30,10 @@ const Main = () => {
             </div>
             <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <FaGithub />
-            </div>{" "}
+            </div>
             <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <AiOutlineMail />
-            </div>{" "}
+            </div>
             <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <BsFillPersonLinesFill />
             </div>
