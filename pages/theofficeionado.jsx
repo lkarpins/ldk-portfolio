@@ -14,7 +14,7 @@ const theofficeionado = () => {
           layout="fill"
           objectFit="cover"
           src={Officeionado}
-          alt="Roed To Aid Screenshot"
+          alt="The Office-ionado Screenshot"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">The Office-ionado</h2>
@@ -37,7 +37,7 @@ const theofficeionado = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8">
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
                 Demo
               </button>
             </a>
@@ -46,13 +46,17 @@ const theofficeionado = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4">Code</button>
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 hover:scale-105 ease-in duration-300">
+                Code
+              </button>
             </a>
           </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#fcaf58]/40 mx-6">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
+            <p className="text-center font-bold pb-2 text-black">
+              Technologies
+            </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
