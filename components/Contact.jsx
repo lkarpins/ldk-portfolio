@@ -66,7 +66,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      classname="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                     />
                   </div>
@@ -74,14 +74,14 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    classname="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    classname="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                   />
                 </div>
@@ -103,7 +103,7 @@ const Contact = () => {
           <Link href="/">
             <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <HiOutlineChevronDoubleUp
-                classname="m-auto text-black"
+                className="m-auto text-black"
                 size={30}
               />
             </div>
