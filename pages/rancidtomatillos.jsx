@@ -32,15 +32,29 @@ const rancidtomatillos = () => {
             obstacles along the way.
           </p>
           <div className="flex items-center justify-center pt-8">
-            <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8">
-              Demo
-            </button>
-            <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4">Code</button>
+            <a
+              href="https://rancid-tomatillos-vert.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8">
+                Demo
+              </button>
+            </a>
+            <a
+              href="https://github.com/lkarpins/rancid-tomatillos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4">Code</button>
+            </a>
           </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#fcaf58]/40 mx-6">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
+            <p className="text-center font-bold pb-2 text-black">
+              Technologies
+            </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
