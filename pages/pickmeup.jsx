@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Roed from "../public/assets/projects/roedtoaid.png";
+import PickMeUp from "../public/assets/projects/pickmeup.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const roedtoaid = () => {
+const pickmeup = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const roedtoaid = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Roed}
-          alt="Roed To Aid Screenshot"
+          src={PickMeUp}
+          alt="PickMeUp Screenshot"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Roe'd To Aid</h2>
-          <h3> React JS / React Router / Apollo GraphQL</h3>
+          <h2 className="py-2">PickMeUp</h2>
+          <h3> TypeScript / JavaScript / React</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
@@ -44,23 +44,23 @@ const roedtoaid = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React
+                TypeScript
               </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                React Router
-              </p>{" "}
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
               </p>{" "}
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Apollo GraphQL
+                React
               </p>{" "}
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                CircleCI
+                React Router
+              </p>{" "}
+              <p className="text-slate-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Local Storage
               </p>{" "}
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -77,4 +77,4 @@ const roedtoaid = () => {
   );
 };
 
-export default roedtoaid;
+export default pickmeup;

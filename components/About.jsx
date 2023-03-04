@@ -33,7 +33,7 @@ const About = () => {
 
           <p className="py-2  text-black">
             In March 2022, I began my journey into software development at
-            Turing School of Software & Design. Over the course of seven months,
+            Turing School of Software & Design. Over the course of the program,
             I learned the foundations of Frontend development with React.js,
             JavaScript, HTML, and CSS. Since graduating from the program, I
             continue to challenge myself with learning new frameworks and
