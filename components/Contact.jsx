@@ -35,6 +35,7 @@ const Contact = () => {
                 <div className="flex items-center justify-between py-4 mt-6">
                   <a
                     href="https://www.linkedin.com/in/lidia-karpinski/"
+                    aria-label="Visit Lidia's LinkedIn"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -44,6 +45,7 @@ const Contact = () => {
                   </a>
                   <a
                     href="https://github.com/lkarpins"
+                    aria-label="Visit Lidia's Github"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -53,6 +55,7 @@ const Contact = () => {
                   </a>
                   <a
                     href="mailto:lidiakarpinski@gmail.com"
+                    aria-label="Send an email to Lidia"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -137,7 +140,10 @@ const Contact = () => {
                     aria-label="Message"
                   />
                 </div>
-                <button className="w-full p-4 text-black mt-4  bg-[#f9dc5c]">
+                <button
+                  aria-label="Send Message"
+                  className="w-full p-4 text-black mt-4  bg-[#f9dc5c]"
+                >
                   Send Message
                 </button>
               </form>
