@@ -24,7 +24,7 @@ const Projects = () => {
           <ProjectItem
             title="The Office-ionado"
             backgroundImage={Office}
-            projectUrl="/theoffice-ionado"
+            projectUrl="/theofficeionado"
           />{" "}
           <ProjectItem
             title="PickMeUp"
