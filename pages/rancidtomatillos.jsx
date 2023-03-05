@@ -27,9 +27,22 @@ const rancidtomatillos = () => {
             Paired Project
           </p>
           <h2 className="py-4">Overview</h2>
-          <p>
-            Discuss why you made it, who you made it with, what you learned, and
-            obstacles along the way.
+          <p className="italic font-bold text-lg mt-3">
+            Leveraging the power of React, we created a quasi-clone of Rotten
+            Tomatoes dubbed Rancid Tomatillos! This application provides a list
+            of movie cards from an API with their poster image and rating, which
+            can each be individually clicked on by the user, routing to a movie
+            summary page. Each summary containins movies details, a promotional
+            photo, and a movie trailer.
+          </p>
+          <p className="mt-3">
+            Rancid Tomatillos was my first React application. I recall how
+            exciting it was to see how quickly a project came together using
+            React. We experienced some obstacles while familiarizing ourselves
+            with JSX syntax and React Router, however developed a rhythm as we
+            went. Utilizing class components, we got to see how state was
+            managed and data was passed through props. Overall, it was a great
+            introduction to the world of JavaScript libraries and frameworks.
           </p>
           <div className="flex items-center justify-center pt-8">
             <a

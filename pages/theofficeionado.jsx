@@ -42,6 +42,13 @@ const theofficeionado = () => {
             creative and construct my own. I really enjoyed having the option to
             modifty/update the API throughout the development process.
           </p>
+          <p className="mt-3">
+            For each character quote, I embedded a gif to add to the user
+            experience. This addition complicated the layout and sizing of my
+            containers. To resolve this issue, I downloaded the
+            html-react-parser dependency so I could style and size the embed
+            gifs.
+          </p>
           <div className="flex items-center justify-center pt-8">
             <a
               href="https://the-office-seven.vercel.app/"
