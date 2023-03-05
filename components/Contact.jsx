@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect with Me</p>
-                <div className="flex items-center justify-between py-4 mt-6">
+                <div className="flex items-center justify-between max-w-[330px] py-4 mt-6">
                   <a
                     href="https://www.linkedin.com/in/lidia-karpinski/"
                     aria-label="Visit Lidia's LinkedIn"
@@ -63,9 +63,6 @@ const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
                 </div>
               </div>
             </div>
