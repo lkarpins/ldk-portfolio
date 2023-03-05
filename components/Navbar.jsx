@@ -59,23 +59,23 @@ const Navbar = () => {
         </a>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/">
+            <Link href="/" aria-label="Go to Home">
               <li className="ml-10 text-sm uppercase hover:scale-110">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" aria-label="Go to About">
               <li className="ml-10 text-sm uppercase hover:scale-110">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#skills" aria-label="Go to Skills">
               <li className="ml-10 text-sm uppercase hover:scale-110">
                 Skills
               </li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" aria-label="Go to Projects">
               <li className="ml-10 text-sm uppercase hover:scale-110">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" aria-label="Go to Contact">
               <li className="ml-10 text-sm uppercase hover:scale-110">
                 Contact
               </li>
@@ -124,7 +124,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105 "
               >
-                <a href="/" aria-label="Go to Home page"></a>
+                <a href="/" aria-label="Go to Home"></a>
                 Home
               </li>
 
@@ -132,7 +132,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#about" aria-label="Go to About page">
+                <a href="/#about" aria-label="Go to About">
                   About
                 </a>
               </li>
@@ -140,7 +140,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#skills" aria-label="Go to Skills page">
+                <a href="/#skills" aria-label="Go to Skills">
                   Skills
                 </a>
               </li>
@@ -148,7 +148,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#projects" aria-label="Go to Projects page">
+                <a href="/#projects" aria-label="Go to Projects">
                   Projects
                 </a>
               </li>
@@ -156,7 +156,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#contact" aria-label="Go to Contact page">
+                <a href="/#contact" aria-label="Go to Contact">
                   Contact
                 </a>
               </li>
