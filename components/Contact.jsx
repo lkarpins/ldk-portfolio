@@ -51,7 +51,7 @@ const Contact = () => {
                   >
                     <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <FaGithub />
-                    </div>{" "}
+                    </div>
                   </a>
                   <a
                     href="mailto:lidiakarpinski@gmail.com"
@@ -61,7 +61,7 @@ const Contact = () => {
                   >
                     <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <AiOutlineMail />
-                    </div>{" "}
+                    </div>
                   </a>
                   <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                     <BsFillPersonLinesFill />

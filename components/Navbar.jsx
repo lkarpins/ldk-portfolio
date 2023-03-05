@@ -166,15 +166,36 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className=" rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/lidia-karpinski-350643236/"
+                  aria-label="Visit Lidia's LinkedIn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className=" rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/lkarpins"
+                  aria-label="Visit Lidia's Github"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </a>
+                <a
+                  href="mailto:lidiakarpinski@gmail.com"
+                  aria-label="Send an email to Lidia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </a>
                 <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
