@@ -4,6 +4,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
+  console.log("Hi! Thanks for checking out my portfolio! :]");
   return (
     <div id="Home" className="w-full h-screen text-center">
       <div className=" max-w-[1240px] w-full h-full mx-auto p-2 min-h-screen flex items-center justify-center ">

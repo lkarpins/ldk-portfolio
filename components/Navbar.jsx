@@ -4,7 +4,6 @@ import Link from "next/link";
 import Logo from "../public/assets/projects/logo.png";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
@@ -13,7 +12,6 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("#e8d7ff");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
-  const focusRef = useRef(null);
 
   useEffect(() => {
     if (
@@ -33,6 +31,7 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+  console.log("hello");
 
   useEffect(() => {
     const handleShadow = () => {
@@ -82,10 +81,14 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="lg:display-none md:hidden  pr-4">
-            <AiOutlineMenu size={25} />
-          </div>
         </div>
+        <button
+          onClick={handleNav}
+          className="lg:display-none md:hidden pr-4"
+          tabIndex={0}
+        >
+          <AiOutlineMenu size={25} />
+        </button>
       </div>
       <div
         className={

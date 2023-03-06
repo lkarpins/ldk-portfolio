@@ -50,8 +50,4 @@ li {
   ls {
     @apply cursor-pointer;
   }
-
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase text-black;
-  }
 }
