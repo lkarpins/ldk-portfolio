@@ -77,7 +77,7 @@ const pickmeup = () => {
             </a>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#fcaf58]/40 mx-6">
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#f7f4f0] mx-6">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-black">
               Technologies

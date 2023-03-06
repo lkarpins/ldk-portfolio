@@ -82,7 +82,7 @@ const roedtoaid = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
+              <button className="bg-[#f9dc5c] px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
                 Demo
               </button>
             </a>
@@ -92,13 +92,13 @@ const roedtoaid = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 hover:scale-105 ease-in duration-300">
+              <button className="bg-[#f9dc5c] px-8 py-2 mt-4 hover:scale-105 ease-in duration-300">
                 Code
               </button>
             </a>
           </div>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#fcaf58]/40 mx-6">
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#f7f4f0] mx-6">
           <div className="p-2">
             <p className="text-center font-bold pb-2 text-black">
               Technologies
