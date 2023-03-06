@@ -31,7 +31,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
+              <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -41,7 +41,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
+              <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
@@ -51,7 +51,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
+              <div className="rounded-full  bg-[#f9dc5c]  shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>

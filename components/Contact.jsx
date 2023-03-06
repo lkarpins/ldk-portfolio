@@ -17,7 +17,7 @@ const Contact = () => {
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/*left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4  bg-[#fcaf58]/40">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4  bg-[#f7f4f0]">
             <div className="lg:p-4 h-full">
               <div>
                 <Image
@@ -39,7 +39,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+                    <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -49,7 +49,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+                    <div className="rounded-full  bg-[#f9dc5c]  shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
@@ -59,7 +59,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+                    <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </a>
@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
           {/*right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#fcaf58]/40 p-2">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#f7f4f0] p-2">
             <div className="p-y">
               <form
                 action="https://getform.io/f/7c676a74-84ee-4d94-b58d-e0d58d0b4611"
@@ -152,7 +152,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <a href="/" aria-label="Go back to home">
-            <div className="rounded-full  bg-[#f9dc5c]/40 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
+            <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <HiOutlineChevronDoubleUp
                 className="m-auto text-black"
                 size={30}

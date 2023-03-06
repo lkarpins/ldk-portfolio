@@ -87,7 +87,6 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        tabIndex={-1}
         className={
           nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/40" : ""
         }
