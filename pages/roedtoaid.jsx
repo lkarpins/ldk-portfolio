@@ -75,27 +75,26 @@ const roedtoaid = () => {
           </p>
 
           <p className="mt-3"></p>
-          <div className="flex items-center justify-center pt-8">
-            <a
+          <div className="flex items-center justify-center pt-8 ">
+            <Link
+              className="bg-[#f9dc5c] px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase text-black hover:scale-105 ease-in duration-300"
               href="https://roed-to-aid.herokuapp.com/"
               aria-label="Check out the deployed site for Roe'd To Aid"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c] px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
-                Demo
-              </button>
-            </a>
-            <a
+              Demo
+            </Link>
+            <Link
+              className="bg-[#f9dc5c] px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase text-black hover:scale-105 ease-in duration-300"
               href="https://github.com/Roe-dToAid/roed_to_aid_fe"
               aria-label="Check out the code repository for Roe'd To Aid"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c] px-8 py-2 mt-4 hover:scale-105 ease-in duration-300">
-                Code
-              </button>
-            </a>
+              {" "}
+              Code
+            </Link>
           </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#f7f4f0] mx-6">
