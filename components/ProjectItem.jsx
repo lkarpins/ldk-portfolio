@@ -7,10 +7,9 @@ const ProjectItem = ({ title, backgroundImage, projectUrl }) => {
     <Link
       href={projectUrl}
       className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl m-4 group hover:bg-gradient-to-r from-[#fcaf58]/40 to-pink-200"
-      // tabIndex={0}
     >
       <Image
-        className="rounded-xl hover:scale-105"
+        className="rounded-xl w-full h-full hover:scale-105"
         src={backgroundImage}
         alt="RoedToAid Screenshot Image"
       />

@@ -106,7 +106,7 @@ const pickmeup = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#projects" aria-label="Go back to Projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
