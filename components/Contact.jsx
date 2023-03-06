@@ -87,6 +87,7 @@ const Contact = () => {
                       name="name"
                       id="fullname"
                       aria-label="Full Name"
+                      required
                     />
                   </div>
                   <div className="flex flex-col">
@@ -99,6 +100,7 @@ const Contact = () => {
                       name="phone"
                       id="Phonenumber"
                       aria-label="Phone Number"
+                      required
                     />
                   </div>
                 </div>
@@ -112,6 +114,7 @@ const Contact = () => {
                     name="email"
                     id="email"
                     aria-label="Email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -124,6 +127,7 @@ const Contact = () => {
                     name="subject"
                     id="subject"
                     aria-label="Subject"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -136,6 +140,7 @@ const Contact = () => {
                     name="message"
                     id="message"
                     aria-label="Message"
+                    required
                   />
                 </div>
                 <button
