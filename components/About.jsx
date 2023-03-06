@@ -12,7 +12,7 @@ const About = () => {
           </p>
           <h2 className="py-4 ">Who I Am</h2>
           <p className=" uppercase text-xl tracking-widest text-purple-900">
-            From Speech therapist to web developer.
+            From Speech therapist to software engineer.
           </p>
           <p className="py-2 text-black">
             Having worked in skilled nursing facilities for the last seven
@@ -25,7 +25,7 @@ const About = () => {
           </p>
           <p className="py-2 text-black">
             Despite advances in technology, accesssibility and inclusivity are
-            still barriers for so many folks. Through my experience as a
+            still barriers for so many folks. As a result of my experience as a
             clinician, I developed a passion for building applications that are
             responsive, accessible, and engaging for all users regardless of age
             group.
@@ -41,7 +41,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-full h-auto m-auto  shadow-xl shadow-slate-300 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center m-4">
           <Image src={Profile} alt="Image of Lidia" />
         </div>
       </div>
