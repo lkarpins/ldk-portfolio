@@ -102,7 +102,7 @@ const Navbar = () => {
           }
         >
           <div className="flex w-full items-center justify-between">
-            <Link href="/" className="lg:invisible">
+            <Link href="/" className="md:invisible">
               <Image src={Logo} width="100" alt="LK Logo" />
             </Link>
             <div
@@ -112,7 +112,7 @@ const Navbar = () => {
               <Link
                 href="/"
                 alt="Close and return to home"
-                className="lg:invisible"
+                className="md:invisible"
               >
                 <AiOutlineClose />
               </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
             </p>
           </div>
 
-          <div className="py-4 flex flex-col lg:invisible">
+          <div className="py-4 flex flex-col md:invisible">
             <ul className="uppercase ">
               <li
                 onClick={() => setNav(false)}
