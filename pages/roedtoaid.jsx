@@ -116,6 +116,10 @@ const roedtoaid = () => {
               </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
+                React Prop Types
+              </p>
+              <p className="text-slate-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
                 Apollo GraphQL
               </p>
               <p className="text-slate-600 py-2 flex items-center">
@@ -125,6 +129,22 @@ const roedtoaid = () => {
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Cypress
+              </p>
+              <p className="text-slate-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Figma
+              </p>
+              <p className="text-slate-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Dribbble
+              </p>
+              <p className="text-slate-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Google Fonts
+              </p>
+              <p className="text-slate-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Material UI
               </p>
             </div>
           </div>
