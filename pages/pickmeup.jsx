@@ -55,26 +55,24 @@ const pickmeup = () => {
             everything mobile responsive.
           </p>
           <div className="flex items-center justify-center pt-8">
-            <a
+            <Link
+              className="bg-[#f9dc5c] px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase text-black hover:scale-105 ease-in duration-300"
               href="https://pick-me-up-ten.vercel.app/"
               aria-label="Check out the deployed site for PickMeUp"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-300">
-                Demo
-              </button>
-            </a>
-            <a
+              Demo
+            </Link>
+            <Link
+              className="bg-[#f9dc5c] px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase text-black hover:scale-105 ease-in duration-300"
               href="https://github.com/lkarpins/pick-me-up"
               aria-label="Check out the code repository for PickMeUp"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#f9dc5c]/40 px-8 py-2 mt-4 hover:scale-105 ease-in duration-300">
-                Code
-              </button>
-            </a>
+              Code
+            </Link>
           </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#f7f4f0] mx-6">

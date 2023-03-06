@@ -92,7 +92,6 @@ const roedtoaid = () => {
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
               Code
             </Link>
           </div>
@@ -110,7 +109,7 @@ const roedtoaid = () => {
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 React Router
-              </p>{" "}
+              </p>
               <p className="text-slate-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 JavaScript
@@ -130,7 +129,7 @@ const roedtoaid = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link href="/#projects" aria-label="Back to Projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
