@@ -66,7 +66,7 @@ const roedtoaid = () => {
           <p className="mt-3">
             Being our first experience working with a full-stack team, it was
             critical for all team members to communicate throughtout the
-            planning and develpment stages. We adopted continuous integration
+            planning and development stages. We adopted continuous integration
             (CI) through CircleCI to integrate changes made by all team members
             into a central, shared version frequently deployed on Heroku. Most
             importantly, we incorporated Agile scrum ceremonies for our project

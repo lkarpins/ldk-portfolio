@@ -35,12 +35,15 @@ const pickmeup = () => {
           </p>
           <p className="mt-3">
             Utilizing TypeScript for the first time, my group members and I got
-            to experience the advantages of a built-in type system. There were
-            plenty of hurdles learning the syntax, however the type and error
-            checking of the compiler far exceeded the challenge of having to
-            write a few extra lines of code. It definitely showed us the value
-            of implenting TypeScript with large-scale applications; so many
-            hours saved from refactoring and debugging!
+            to experience the advantages of a built-in type system. Before
+            getting started, I conducted research on TypeScript by reviewing the
+            docs and completing a Scrimba course. As a team we then shared our
+            learning experiences to start the build. There were plenty of
+            hurdles learning the syntax, however the type and error checking of
+            the compiler far exceeded the challenge of having to write a few
+            extra lines of code. It definitely showed us the value of implenting
+            TypeScript with large-scale applications; so many hours saved from
+            refactoring and debugging!
           </p>
           <p className="mt-3">
             Throughout this project, my group members and I took full advantage

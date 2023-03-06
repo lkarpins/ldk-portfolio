@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/assets/projects/logo.png";
@@ -13,6 +13,7 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("#e8d7ff");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
+  const focusRef = useRef(null);
 
   useEffect(() => {
     if (
@@ -81,14 +82,16 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="lg:display-none md:hidden pr-4">
+          <div onClick={handleNav} className="lg:display-none md:hidden  pr-4">
             <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
       <div
         className={
-          nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/40" : ""
+          nav
+            ? " md:hidden  fixed left-0 top-0 w-full h-screen bg-black/40"
+            : ""
         }
       >
         <div
@@ -98,34 +101,39 @@ const Navbar = () => {
               : "fixed left-[100%] top-0 p-10 ease-in duration-500 "
           }
         >
-          <div>
-            <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <Image src={Logo} width="100" alt="LK Logo" />
-              </Link>
-              <div
-                onClick={handleNav}
-                className=" rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer"
+          <div className="flex w-full items-center justify-between">
+            <Link href="/" className="lg:invisible">
+              <Image src={Logo} width="100" alt="LK Logo" />
+            </Link>
+            <div
+              onClick={handleNav}
+              className=" rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer"
+            >
+              <Link
+                href="/"
+                alt="Close and return to home"
+                className="lg:invisible"
               >
                 <AiOutlineClose />
-              </div>
-            </div>
-            <div className=" border-b border-gray-300 my-4 flex justify-center items-center">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Building inclusive & accessible applications with empathy and
-                creativity.
-              </p>
+              </Link>
             </div>
           </div>
+          <div className=" border-b border-gray-300 my-4 flex justify-center items-center">
+            <p className="w-[85%] md:w-[90%] py-4">
+              Building inclusive & accessible applications with empathy and
+              creativity.
+            </p>
+          </div>
 
-          <div className="py-4 flex flex-col">
+          <div className="py-4 flex flex-col lg:invisible">
             <ul className="uppercase ">
               <li
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105 "
               >
-                <a href="/" aria-label="Go to Home"></a>
-                Home
+                <a href="/" aria-label="Go to Home">
+                  Home
+                </a>
               </li>
 
               <li
