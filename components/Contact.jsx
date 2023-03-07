@@ -144,7 +144,7 @@ const Contact = () => {
                 </div>
                 <button
                   aria-label="Send Message"
-                  className="w-full p-4 text-black mt-4  bg-[#f9dc5c]"
+                  className="w-full p-3 text-black mt-4  bg-[#f9dc5c] shadow-lg shadow-gray-400 cursor-pointer hover:scale-105  ease-in duration-300"
                 >
                   Send Message
                 </button>
