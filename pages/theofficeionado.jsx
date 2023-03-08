@@ -47,7 +47,8 @@ const theofficeionado = () => {
             experience. This addition complicated the layout and sizing of my
             containers. To resolve this issue, I downloaded the
             html-react-parser dependency so I could style and size the embed
-            gifs.
+            gifs. Throughout this project, I experienced the power of reading
+            through the docs and reaching out to mentors.
           </p>
           <div className="flex items-center justify-center pt-8">
             <Link
