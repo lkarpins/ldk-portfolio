@@ -21,7 +21,8 @@ const Contact = () => {
                 <Image
                   className="rounded-xl"
                   src={Computer}
-                  alt="Image of person typing on computer"
+                  alt="/"
+                  aria-label="Person typing on computer"
                 />
               </div>
               <div>
@@ -33,7 +34,7 @@ const Contact = () => {
                 <div className="flex items-center justify-between max-w-[330px] py-4 mt-6">
                   <Link
                     href="https://www.linkedin.com/in/lidia-karpinski/"
-                    aria-label="Visit Lidia's LinkedIn"
+                    aria-label="Lidia's LinkedIn"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -43,7 +44,7 @@ const Contact = () => {
                   </Link>
                   <Link
                     href="https://github.com/lkarpins"
-                    aria-label="Visit Lidia's Github"
+                    aria-label="Lidia's Github"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -153,7 +154,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href="/" aria-label="Go back to home">
+          <Link href="/" aria-label="Home">
             <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <HiOutlineChevronDoubleUp
                 className="m-auto text-black"

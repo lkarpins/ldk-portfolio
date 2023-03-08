@@ -53,28 +53,28 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <a href="/" aria-label="Go to home">
-          <Image src={Logo} alt="LK Logo" width="100" />
-        </a>
+        <Link href="/" aria-label="Home">
+          <Image src={Logo} alt="/" aria-label="LK Logo" width="100" />
+        </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/" aria-label="Go to Home">
+            <Link href="/" aria-label="Home">
               <li className="ml-10 text-sm uppercase hover:scale-110">Home</li>
             </Link>
-            <Link href="/#about" aria-label="Go to About">
+            <Link href="/#about" aria-label="About">
               <li className="ml-10 text-sm uppercase hover:scale-110">About</li>
             </Link>
-            <Link href="/#skills" aria-label="Go to Skills">
+            <Link href="/#skills" aria-label="Skills">
               <li className="ml-10 text-sm uppercase hover:scale-110">
                 Skills
               </li>
             </Link>
-            <Link href="/#projects" aria-label="Go to Projects">
+            <Link href="/#projects" aria-label="Projects">
               <li className="ml-10 text-sm uppercase hover:scale-110">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact" aria-label="Go to Contact">
+            <Link href="/#contact" aria-label="Contact">
               <li className="ml-10 text-sm uppercase hover:scale-110">
                 Contact
               </li>
@@ -85,6 +85,7 @@ const Navbar = () => {
           onClick={handleNav}
           className="lg:display-none md:hidden pr-4"
           tabIndex={0}
+          aria-label="View Menu"
         >
           <AiOutlineMenu size={25} />
         </button>
@@ -111,13 +112,9 @@ const Navbar = () => {
               onClick={handleNav}
               className=" rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer"
             >
-              <Link
-                href="/"
-                alt="Close and return to home"
-                className="md:invisible"
-              >
+              <a href="/" className="md:invisible" aria-label="Close Menu">
                 <AiOutlineClose />
-              </Link>
+              </a>
             </div>
           </div>
           <div className=" border-b border-gray-300 my-4 flex justify-center items-center">
@@ -133,7 +130,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105 "
               >
-                <Link href="/" aria-label="Go to Home">
+                <Link href="/" aria-label="Home">
                   Home
                 </Link>
               </li>
@@ -141,7 +138,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <Link href="/#about" aria-label="Go to About">
+                <Link href="/#about" aria-label="About">
                   About
                 </Link>
               </li>
@@ -149,7 +146,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <Link href="/#skills" aria-label="Go to Skills">
+                <Link href="/#skills" aria-label="Skills">
                   Skills
                 </Link>
               </li>
@@ -157,7 +154,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <Link href="/#projects" aria-label="Go to Projects">
+                <Link href="/#projects" aria-label="Projects">
                   Projects
                 </Link>
               </li>
@@ -165,7 +162,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <Link href="/#contact" aria-label="Go to Contact">
+                <Link href="/#contact" aria-label="Contact">
                   Contact
                 </Link>
               </li>
@@ -177,7 +174,7 @@ const Navbar = () => {
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <Link
                   href="https://www.linkedin.com/in/lidia-karpinski-350643236/"
-                  aria-label="Visit Lidia's LinkedIn"
+                  aria-label="Lidia's LinkedIn"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -187,7 +184,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   href="https://github.com/lkarpins"
-                  aria-label="Visit Lidia's Github"
+                  aria-label="Lidia's Github"
                   target="_blank"
                   rel="noreferrer"
                 >

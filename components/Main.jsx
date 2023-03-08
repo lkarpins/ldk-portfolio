@@ -28,7 +28,7 @@ const Main = () => {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link
               href="https://www.linkedin.com/in/lidia-karpinski/"
-              aria-label="Visit Lidia's LinkedIn"
+              aria-label="Lidia's LinkedIn"
               target="_blank"
               rel="noreferrer"
             >
@@ -38,7 +38,7 @@ const Main = () => {
             </Link>
             <Link
               href="https://github.com/lkarpins"
-              aria-label="Visit Lidia's Github"
+              aria-label="Lidia's Github"
               target="_blank"
               rel="noreferrer"
             >

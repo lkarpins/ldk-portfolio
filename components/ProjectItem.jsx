@@ -11,7 +11,8 @@ const ProjectItem = ({ title, backgroundImage, projectUrl }) => {
       <Image
         className="rounded-xl w-full h-full hover:scale-105"
         src={backgroundImage}
-        alt="Project Screenshot"
+        alt="/"
+        aria-label="Project Screenshot"
       />
     </Link>
   );
