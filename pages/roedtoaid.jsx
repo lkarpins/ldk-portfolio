@@ -59,7 +59,7 @@ const roedtoaid = () => {
             the design and imagery of the user experience. We purchased an
             illustration assets pack from Dribbble so it would have a consistent
             look and feel. It was also important to us as a team to utilize
-            diverse and inclusive imagery. We used FIGMA to construct our
+            diverse and inclusive imagery. We used Figma to construct our
             wireframes and imported GoogleFonts of different styles, sizes, and
             weights for our fonts.
           </p>
@@ -98,52 +98,31 @@ const roedtoaid = () => {
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#f7f4f0] mx-6">
           <div className="p-2">
-            <p className="text-center font-bold pb-2 text-black">
+            <p className="text-center font-bold pb-2 text-black border-b border-black my-4">
               Technologies
             </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
+              <p className="text-slate-600 py-2 flex items-center">React</p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                React
-              </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 React Router
               </p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 JavaScript
               </p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 React Prop Types
               </p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 Apollo GraphQL
               </p>
+              <p className="text-slate-600 py-2 flex items-center">CircleCI</p>
+              <p className="text-slate-600 py-2 flex items-center">Cypress</p>
+              <p className="text-slate-600 py-2 flex items-center">Figma</p>
+              <p className="text-slate-600 py-2 flex items-center">Dribbble</p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                CircleCI
-              </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Cypress
-              </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Figma
-              </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Dribbble
-              </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 Google Fonts
               </p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 Material UI
               </p>
             </div>
