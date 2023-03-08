@@ -31,7 +31,7 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect with Me</p>
                 <div className="flex items-center justify-between max-w-[330px] py-4 mt-6">
-                  <a
+                  <Link
                     href="https://www.linkedin.com/in/lidia-karpinski/"
                     aria-label="Visit Lidia's LinkedIn"
                     target="_blank"
@@ -40,8 +40,8 @@ const Contact = () => {
                     <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="https://github.com/lkarpins"
                     aria-label="Visit Lidia's Github"
                     target="_blank"
@@ -50,7 +50,7 @@ const Contact = () => {
                     <div className="rounded-full  bg-[#f9dc5c]  shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <FaGithub />
                     </div>
-                  </a>
+                  </Link>
                   <Link
                     href="mailto:lidiakarpinski@gmail.com"
                     aria-label="Send an email to Lidia"
