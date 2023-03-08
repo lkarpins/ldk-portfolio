@@ -133,42 +133,41 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105 "
               >
-                <a href="/" aria-label="Go to Home">
+                <Link href="/" aria-label="Go to Home">
                   Home
-                </a>
+                </Link>
               </li>
-
               <li
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#about" aria-label="Go to About">
+                <Link href="/#about" aria-label="Go to About">
                   About
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#skills" aria-label="Go to Skills">
+                <Link href="/#skills" aria-label="Go to Skills">
                   Skills
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#projects" aria-label="Go to Projects">
+                <Link href="/#projects" aria-label="Go to Projects">
                   Projects
-                </a>
+                </Link>
               </li>
               <li
                 onClick={() => setNav(false)}
                 className="py-4 text-sm hover:text-black hover:scale-105"
               >
-                <a href="/#contact" aria-label="Go to Contact">
+                <Link href="/#contact" aria-label="Go to Contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="pt-4 text-center">
@@ -176,7 +175,7 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a
+                <Link
                   href="https://www.linkedin.com/in/lidia-karpinski-350643236/"
                   aria-label="Visit Lidia's LinkedIn"
                   target="_blank"
@@ -185,8 +184,8 @@ const Navbar = () => {
                   <div className=" rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="https://github.com/lkarpins"
                   aria-label="Visit Lidia's Github"
                   target="_blank"
@@ -195,8 +194,8 @@ const Navbar = () => {
                   <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
-                </a>
-                <a
+                </Link>
+                <Link
                   href="mailto:lidiakarpinski@gmail.com"
                   aria-label="Send an email to Lidia"
                   target="_blank"
@@ -205,7 +204,7 @@ const Navbar = () => {
                   <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
