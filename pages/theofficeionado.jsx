@@ -33,7 +33,7 @@ const theofficeionado = () => {
             over, but generations will continue to enjoy this classic through
             The Office-ionado, an application designed for users to test their
             recollection of some of the most legendary quotes. A search input
-            allows users to easily find their favorites!
+            allows users to easily find their favorites.
           </p>
           <p className="mt-3">
             With the use of React and Express.js, the Office-ionado was my first
