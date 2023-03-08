@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import PickMeUp from "../public/assets/projects/pickmeup.png";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
 const pickmeup = () => {
@@ -80,28 +79,21 @@ const pickmeup = () => {
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-[#f7f4f0] mx-6">
           <div className="p-2">
-            <p className="text-center font-bold text-black">Technologies</p>
+            <p className="text-center font-extrabold text-black border-b border-black my-4">
+              Technologies
+            </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 TypeScript
               </p>
+              <p className="text-slate-600 py-2 flex items-center">React</p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                React
-              </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 React Router
               </p>
               <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
                 Local Storage
               </p>
-              <p className="text-slate-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Cypress
-              </p>
+              <p className="text-slate-600 py-2 flex items-center">Cypress</p>
             </div>
           </div>
         </div>
