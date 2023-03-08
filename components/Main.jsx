@@ -1,6 +1,6 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
@@ -26,7 +26,7 @@ const Main = () => {
             empathy to maximize user experience.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a
+            <Link
               href="https://www.linkedin.com/in/lidia-karpinski/"
               aria-label="Visit Lidia's LinkedIn"
               target="_blank"
@@ -35,8 +35,8 @@ const Main = () => {
               <div className="rounded-full bg-[#f9dc5c] shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
                 <FaLinkedinIn />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/lkarpins"
               aria-label="Visit Lidia's Github"
               target="_blank"
@@ -45,8 +45,8 @@ const Main = () => {
               <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
                 <FaGithub />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="mailto:lidiakarpinski@gmail.com"
               aria-label="Send an email to Lidia"
               target="_blank"
@@ -55,7 +55,7 @@ const Main = () => {
               <div className="rounded-full  bg-[#f9dc5c]  shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-105  ease-in duration-300">
                 <AiOutlineMail />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
