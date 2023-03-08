@@ -31,7 +31,6 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  console.log("hello");
 
   useEffect(() => {
     const handleShadow = () => {

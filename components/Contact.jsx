@@ -51,7 +51,7 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-                  <a
+                  <Link
                     href="mailto:lidiakarpinski@gmail.com"
                     aria-label="Send an email to Lidia"
                     target="_blank"
@@ -60,7 +60,7 @@ const Contact = () => {
                     <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
                       <AiOutlineMail />
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Contact = () => {
                 </div>
                 <button
                   aria-label="Send Message"
-                  className="w-full p-3 text-black mt-4  bg-[#f9dc5c] shadow-lg shadow-gray-400 cursor-pointer hover:scale-105  ease-in duration-300"
+                  className="w-full p-3 uppercase text-black mt-4  bg-[#f9dc5c] shadow-lg shadow-gray-400 cursor-pointer hover:scale-105  ease-in duration-300"
                 >
                   Send Message
                 </button>
@@ -153,14 +153,14 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <a href="/" aria-label="Go back to home">
+          <Link href="/" aria-label="Go back to home">
             <div className="rounded-full  bg-[#f9dc5c] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105  ease-in duration-300">
               <HiOutlineChevronDoubleUp
                 className="m-auto text-black"
                 size={30}
               />
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

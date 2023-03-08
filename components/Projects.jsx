@@ -14,6 +14,9 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I've Built</h2>
+        <h3 className="py-2 uppercase font-bold text-sm">
+          Click Image to View Details
+        </h3>
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
