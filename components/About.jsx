@@ -41,7 +41,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-full h-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center m-4">
+        <div className="w-full h-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center m-auto">
           <Image src={Profile} alt="Image of Lidia" />
         </div>
       </div>
