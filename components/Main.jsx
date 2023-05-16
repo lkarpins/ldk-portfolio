@@ -16,9 +16,7 @@ const Main = () => {
         <div>
           <h2 className=" tracking-widest text-slate-600">Hi! My name is</h2>
           <h1 className="py-4 text-black">Lidia Karpinski.</h1>
-          <h2 className="py-2 text-slate-600">
-            I'm a Frontend Software Engineer.
-          </h2>
+          <h2 className="py-2 text-slate-600">I'm a Software Engineer.</h2>
           <p className="py-4 text-black font-black max-w-[70%] m-auto">
             As a Speech-Language Pathologist turned Software Engineer, I merged
             a passion for communication and accessibility by creating inclusive
